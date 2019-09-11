@@ -3,17 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2EFF59230B524500CEC48E /* TextModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2EFF58230B524500CEC48E /* TextModifiers.swift */; };
+		2F2EFF5C230B615D00CEC48E /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2EFF5B230B615D00CEC48E /* SignUp.swift */; };
+		2F2EFF5F230B667100CEC48E /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2EFF5E230B667100CEC48E /* Categories.swift */; };
 		2F4B0E572303BABE00EA97AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B0E562303BABE00EA97AC /* AppDelegate.swift */; };
 		2F4B0E592303BABE00EA97AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B0E582303BABE00EA97AC /* SceneDelegate.swift */; };
-		2F4B0E5B2303BABE00EA97AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B0E5A2303BABE00EA97AC /* ContentView.swift */; };
 		2F4B0E5D2303BAC100EA97AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4B0E5C2303BAC100EA97AC /* Assets.xcassets */; };
 		2F4B0E602303BAC100EA97AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4B0E5F2303BAC100EA97AC /* Preview Assets.xcassets */; };
 		2F4B0E632303BAC100EA97AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4B0E612303BAC100EA97AC /* LaunchScreen.storyboard */; };
 		2F4B0E6E2303BAC100EA97AC /* RecipesAppIntegratedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B0E6D2303BAC100EA97AC /* RecipesAppIntegratedTests.swift */; };
+		2F4B0E792303BB2D00EA97AC /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F4B0E782303BB2D00EA97AC /* recipes.json */; };
+		2F4B0E7D2303BB7800EA97AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B0E7C2303BB7800EA97AC /* HomeView.swift */; };
+		2F4B0E7F2303BCA800EA97AC /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B0E7E2303BCA800EA97AC /* HomeInteractor.swift */; };
+		2F4B0E812303BCF700EA97AC /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B0E802303BCF700EA97AC /* HomePresenter.swift */; };
+		2F4B0E862303BEAA00EA97AC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B0E852303BEAA00EA97AC /* Recipe.swift */; };
+		2F4CC5522304FC510007B817 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CC5512304FC510007B817 /* HomeController.swift */; };
+		2F5B3FA5230A5ADE00583C24 /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B3FA4230A5ADE00583C24 /* RecipeDetail.swift */; };
+		2F6BE38F2308AD6B009C1639 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6BE38A2308AD6A009C1639 /* Montserrat-Light.ttf */; };
+		2F6BE3902308AD6B009C1639 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6BE38B2308AD6A009C1639 /* Montserrat-Bold.ttf */; };
+		2F6BE3912308AD6B009C1639 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6BE38C2308AD6A009C1639 /* Montserrat-Regular.ttf */; };
+		2F6BE3922308AD6B009C1639 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6BE38D2308AD6A009C1639 /* Montserrat-Medium.ttf */; };
+		2F6BE3932308AD6B009C1639 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6BE38E2308AD6B009C1639 /* Montserrat-SemiBold.ttf */; };
+		2F6BE39A2308ADF8009C1639 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6BE3992308ADF8009C1639 /* ProximaNova-Bold.otf */; };
+		2F6BE39D2308DA9C009C1639 /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BE39C2308DA9C009C1639 /* Setup.swift */; };
+		2F6BE3A12308DC9C009C1639 /* RecipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BE3A02308DC9C009C1639 /* RecipeButton.swift */; };
+		2F6BE3A42308ED17009C1639 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BE3A32308ED17009C1639 /* LogIn.swift */; };
+		2F6BE3A72308EE10009C1639 /* RecipeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BE3A62308EE10009C1639 /* RecipeTextField.swift */; };
+		2F83BFC3230B89CE007B5D02 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83BFC2230B89CE007B5D02 /* RecipeTabView.swift */; };
+		2F872E6C23090253002F2232 /* SwURL in Frameworks */ = {isa = PBXBuildFile; productRef = 2F872E6B23090253002F2232 /* SwURL */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F2EFF58230B524500CEC48E /* TextModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifiers.swift; sourceTree = "<group>"; };
+		2F2EFF5B230B615D00CEC48E /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		2F2EFF5E230B667100CEC48E /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		2F4B0E532303BABE00EA97AC /* RecipesAppIntegrated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipesAppIntegrated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4B0E562303BABE00EA97AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F4B0E582303BABE00EA97AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F4B0E5A2303BABE00EA97AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F4B0E5C2303BAC100EA97AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F4B0E5F2303BAC100EA97AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F4B0E622303BAC100EA97AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +61,24 @@
 		2F4B0E692303BAC100EA97AC /* RecipesAppIntegratedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesAppIntegratedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4B0E6D2303BAC100EA97AC /* RecipesAppIntegratedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesAppIntegratedTests.swift; sourceTree = "<group>"; };
 		2F4B0E6F2303BAC100EA97AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4B0E782303BB2D00EA97AC /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		2F4B0E7C2303BB7800EA97AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2F4B0E7E2303BCA800EA97AC /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		2F4B0E802303BCF700EA97AC /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		2F4B0E852303BEAA00EA97AC /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		2F4CC5512304FC510007B817 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		2F5B3FA4230A5ADE00583C24 /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
+		2F6BE38A2308AD6A009C1639 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.ttf"; path = "../Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		2F6BE38B2308AD6A009C1639 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		2F6BE38C2308AD6A009C1639 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		2F6BE38D2308AD6A009C1639 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		2F6BE38E2308AD6B009C1639 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		2F6BE3992308ADF8009C1639 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		2F6BE39C2308DA9C009C1639 /* Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
+		2F6BE3A02308DC9C009C1639 /* RecipeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeButton.swift; sourceTree = "<group>"; };
+		2F6BE3A32308ED17009C1639 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		2F6BE3A62308EE10009C1639 /* RecipeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTextField.swift; sourceTree = "<group>"; };
+		2F83BFC2230B89CE007B5D02 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F872E6C23090253002F2232 /* SwURL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +100,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F2EFF57230B522400CEC48E /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				2F2EFF58230B524500CEC48E /* TextModifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		2F2EFF5A230B614E00CEC48E /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				2F2EFF5B230B615D00CEC48E /* SignUp.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		2F2EFF5D230B665A00CEC48E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2F2EFF5E230B667100CEC48E /* Categories.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		2F4B0E4A2303BABE00EA97AC = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +145,11 @@
 		2F4B0E552303BABE00EA97AC /* RecipesAppIntegrated */ = {
 			isa = PBXGroup;
 			children = (
+				2F6BE3882308AD15009C1639 /* Resources */,
+				2F4B0E832303BE9200EA97AC /* Core */,
+				2F4B0E7A2303BB6400EA97AC /* Scenes */,
 				2F4B0E562303BABE00EA97AC /* AppDelegate.swift */,
 				2F4B0E582303BABE00EA97AC /* SceneDelegate.swift */,
-				2F4B0E5A2303BABE00EA97AC /* ContentView.swift */,
 				2F4B0E5C2303BAC100EA97AC /* Assets.xcassets */,
 				2F4B0E612303BAC100EA97AC /* LaunchScreen.storyboard */,
 				2F4B0E642303BAC100EA97AC /* Info.plist */,
@@ -94,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				2F4B0E5F2303BAC100EA97AC /* Preview Assets.xcassets */,
+				2F4B0E782303BB2D00EA97AC /* recipes.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -105,6 +174,143 @@
 				2F4B0E6F2303BAC100EA97AC /* Info.plist */,
 			);
 			path = RecipesAppIntegratedTests;
+			sourceTree = "<group>";
+		};
+		2F4B0E7A2303BB6400EA97AC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2F83BFC1230B89BA007B5D02 /* TabView */,
+				2F2EFF5D230B665A00CEC48E /* Categories */,
+				2F2EFF5A230B614E00CEC48E /* SignUp */,
+				2F5B3FA2230A565F00583C24 /* RecipeDetail */,
+				2F6BE3A22308ECFB009C1639 /* LogIn */,
+				2F6BE39B2308DA83009C1639 /* Setup */,
+				2F4B0E7B2303BB6900EA97AC /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2F4B0E7B2303BB6900EA97AC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2F4B0E7C2303BB7800EA97AC /* HomeView.swift */,
+				2F4B0E7E2303BCA800EA97AC /* HomeInteractor.swift */,
+				2F4B0E802303BCF700EA97AC /* HomePresenter.swift */,
+				2F4CC5512304FC510007B817 /* HomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2F4B0E832303BE9200EA97AC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2F6BE39E2308DC7B009C1639 /* UI */,
+				2F4B0E842303BE9A00EA97AC /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2F4B0E842303BE9A00EA97AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F4B0E852303BEAA00EA97AC /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F5B3FA2230A565F00583C24 /* RecipeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2F5B3FA4230A5ADE00583C24 /* RecipeDetail.swift */,
+			);
+			path = RecipeDetail;
+			sourceTree = "<group>";
+		};
+		2F6BE3882308AD15009C1639 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F6BE3892308AD1D009C1639 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F6BE3892308AD1D009C1639 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2F6BE3962308AD97009C1639 /* ProximaNova */,
+				2F6BE3952308AD85009C1639 /* Monstserrat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2F6BE3952308AD85009C1639 /* Monstserrat */ = {
+			isa = PBXGroup;
+			children = (
+				2F6BE38B2308AD6A009C1639 /* Montserrat-Bold.ttf */,
+				2F6BE38A2308AD6A009C1639 /* Montserrat-Light.ttf */,
+				2F6BE38D2308AD6A009C1639 /* Montserrat-Medium.ttf */,
+				2F6BE38C2308AD6A009C1639 /* Montserrat-Regular.ttf */,
+				2F6BE38E2308AD6B009C1639 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Monstserrat;
+			sourceTree = "<group>";
+		};
+		2F6BE3962308AD97009C1639 /* ProximaNova */ = {
+			isa = PBXGroup;
+			children = (
+				2F6BE3992308ADF8009C1639 /* ProximaNova-Bold.otf */,
+			);
+			path = ProximaNova;
+			sourceTree = "<group>";
+		};
+		2F6BE39B2308DA83009C1639 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				2F6BE39C2308DA9C009C1639 /* Setup.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		2F6BE39E2308DC7B009C1639 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2F2EFF57230B522400CEC48E /* Modifiers */,
+				2F6BE3A52308EE01009C1639 /* TextFields */,
+				2F6BE39F2308DC84009C1639 /* Buttons */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2F6BE39F2308DC84009C1639 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2F6BE3A02308DC9C009C1639 /* RecipeButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		2F6BE3A22308ECFB009C1639 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				2F6BE3A32308ED17009C1639 /* LogIn.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		2F6BE3A52308EE01009C1639 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				2F6BE3A62308EE10009C1639 /* RecipeTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		2F83BFC1230B89BA007B5D02 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				2F83BFC2230B89CE007B5D02 /* RecipeTabView.swift */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +329,9 @@
 			dependencies = (
 			);
 			name = RecipesAppIntegrated;
+			packageProductDependencies = (
+				2F872E6B23090253002F2232 /* SwURL */,
+			);
 			productName = RecipesAppIntegrated;
 			productReference = 2F4B0E532303BABE00EA97AC /* RecipesAppIntegrated.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +382,9 @@
 				Base,
 			);
 			mainGroup = 2F4B0E4A2303BABE00EA97AC;
+			packageReferences = (
+				2F872E6A23090253002F2232 /* XCRemoteSwiftPackageReference "SwURL" */,
+			);
 			productRefGroup = 2F4B0E542303BABE00EA97AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -188,9 +400,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6BE38F2308AD6B009C1639 /* Montserrat-Light.ttf in Resources */,
 				2F4B0E632303BAC100EA97AC /* LaunchScreen.storyboard in Resources */,
+				2F6BE3912308AD6B009C1639 /* Montserrat-Regular.ttf in Resources */,
+				2F6BE3902308AD6B009C1639 /* Montserrat-Bold.ttf in Resources */,
 				2F4B0E602303BAC100EA97AC /* Preview Assets.xcassets in Resources */,
 				2F4B0E5D2303BAC100EA97AC /* Assets.xcassets in Resources */,
+				2F6BE3932308AD6B009C1639 /* Montserrat-SemiBold.ttf in Resources */,
+				2F6BE3922308AD6B009C1639 /* Montserrat-Medium.ttf in Resources */,
+				2F4B0E792303BB2D00EA97AC /* recipes.json in Resources */,
+				2F6BE39A2308ADF8009C1639 /* ProximaNova-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +429,20 @@
 			files = (
 				2F4B0E572303BABE00EA97AC /* AppDelegate.swift in Sources */,
 				2F4B0E592303BABE00EA97AC /* SceneDelegate.swift in Sources */,
-				2F4B0E5B2303BABE00EA97AC /* ContentView.swift in Sources */,
+				2F2EFF5F230B667100CEC48E /* Categories.swift in Sources */,
+				2F4B0E862303BEAA00EA97AC /* Recipe.swift in Sources */,
+				2F6BE3A12308DC9C009C1639 /* RecipeButton.swift in Sources */,
+				2F5B3FA5230A5ADE00583C24 /* RecipeDetail.swift in Sources */,
+				2F4B0E7D2303BB7800EA97AC /* HomeView.swift in Sources */,
+				2F6BE3A42308ED17009C1639 /* LogIn.swift in Sources */,
+				2F83BFC3230B89CE007B5D02 /* RecipeTabView.swift in Sources */,
+				2F2EFF5C230B615D00CEC48E /* SignUp.swift in Sources */,
+				2F4CC5522304FC510007B817 /* HomeController.swift in Sources */,
+				2F4B0E812303BCF700EA97AC /* HomePresenter.swift in Sources */,
+				2F2EFF59230B524500CEC48E /* TextModifiers.swift in Sources */,
+				2F6BE3A72308EE10009C1639 /* RecipeTextField.swift in Sources */,
+				2F4B0E7F2303BCA800EA97AC /* HomeInteractor.swift in Sources */,
+				2F6BE39D2308DA9C009C1639 /* Setup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +699,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F872E6A23090253002F2232 /* XCRemoteSwiftPackageReference "SwURL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:cmtrounce/SwURL.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F872E6B23090253002F2232 /* SwURL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F872E6A23090253002F2232 /* XCRemoteSwiftPackageReference "SwURL" */;
+			productName = SwURL;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F4B0E4B2303BABE00EA97AC /* Project object */;
 }
